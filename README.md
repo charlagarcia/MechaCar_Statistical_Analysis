@@ -20,3 +20,9 @@ We used these variables to get the following coeffecients: vehicle length, vehic
 
 All coefficients are statistically significant, except AWD.  All slopes are non-zero. he p-value shows 5.35e-11, and R-squared is 0.7149. This linear model does effectively predict MPG of MechaCar prototypes, but we can't rule out that there might be other variables that contribute to MPG that aren't included in the dataset.
 ![pic2](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/Screenshot%20(80).png)
+
+## Summary Statistics on Suspension Coils
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. We created a summary statistics table to show:
+  - The suspension coil’s PSI continuous variable across all manufacturing lots
+  - The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
