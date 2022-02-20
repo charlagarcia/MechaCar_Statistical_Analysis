@@ -26,3 +26,10 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
   - The suspension coil’s PSI continuous variable across all manufacturing lots
   - The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
+Summary for statistics of all the manufacturing lots:
+![total_sum](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/total%20summary.png)
+
+Summary by manufactuing lot:
+![lot_sum](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/lot%20summary.png)
+
+The design specifications for the MecaCar suspension coils dictate that the variance must not exceed 100psi.  The variance for the total manufacturing lot is 62, which is well within the parameters.  However, Lot 3 in particular is very high, at 170 and does not meet the specifications.
