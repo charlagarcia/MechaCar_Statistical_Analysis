@@ -33,3 +33,33 @@ Summary by manufactuing lot:
 ![lot_sum](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/lot%20summary.png)
 
 The design specifications for the MecaCar suspension coils dictate that the variance must not exceed 100psi.  The variance for the total manufacturing lot is 62, which is well within the parameters.  However, Lot 3 in particular is very high, at 170 and does not meet the specifications.
+
+
+## T-Tests on Suspension Coils
+Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+T-test for all lots:
+![all](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/ttest%20all.png)
+
+T-test for Lot 1:
+![lot1](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/ttest%20lot%201.png)
+
+T-test for Lot 2:
+![lot2](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/ttest%20lot%202.png)
+
+T-test for Lot 3:
+![lot3](https://github.com/charlagarcia/MechaCar_Statistical_Analysis/blob/main/resources/ttest%20lot%203.png)
+
+Manufacturing for manufacturing lots overall, Lot 1, and Lot 2 are not statistially different from the population mean of 1500psi.
+
+## Study Design: MechaCar vs. Competition
+Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+- What metric or metrics are you going to test?
+    The next metric I would test is the safety rating, as that is most often one of the biggest concerns of car-buyers.
+- What is the null hypothesis or alternative hypothesis?
+    The null hypothesis is that the mean of the safety rating is zero.  The alternative hypothesis is that the mean of the safety rating is NOT zero.
+- What statistical test would you use to test the hypothesis? And why?
+    I would use a multiple linear regression statistical summary.  This would show how the variables impact safety ratings.
+- What data is needed to run the statistical test?
+    A random sample of safety ratings for MechaCar and competitors would need to be collected.
